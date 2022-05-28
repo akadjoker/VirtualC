@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VirtualC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/VirtualC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/VirtualC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lraylib" />
+					<Add option="-langelscript64" />
+					<Add option="-lpthread" />
+					<Add option="-lm" />
+					<Add option="-ldl" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/aswrappedcall.h" />
+		<Unit filename="include/contextmgr.h" />
+		<Unit filename="include/datetime.h" />
+		<Unit filename="include/debugger.h" />
+		<Unit filename="include/scriptany.h" />
+		<Unit filename="include/scriptarray.h" />
+		<Unit filename="include/scriptbuilder.h" />
+		<Unit filename="include/scriptdictionary.h" />
+		<Unit filename="include/scriptfile.h" />
+		<Unit filename="include/scriptfilesystem.h" />
+		<Unit filename="include/scriptgrid.h" />
+		<Unit filename="include/scripthandle.h" />
+		<Unit filename="include/scripthelper.h" />
+		<Unit filename="include/scriptmath.h" />
+		<Unit filename="include/scriptmathcomplex.h" />
+		<Unit filename="include/scriptstdstring.h" />
+		<Unit filename="include/serializer.h" />
+		<Unit filename="include/weakref.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/contextmgr.cpp" />
+		<Unit filename="src/datetime.cpp" />
+		<Unit filename="src/debugger.cpp" />
+		<Unit filename="src/scriptany.cpp" />
+		<Unit filename="src/scriptarray.cpp" />
+		<Unit filename="src/scriptbuilder.cpp" />
+		<Unit filename="src/scriptdictionary.cpp" />
+		<Unit filename="src/scriptfile.cpp" />
+		<Unit filename="src/scriptfilesystem.cpp" />
+		<Unit filename="src/scriptgrid.cpp" />
+		<Unit filename="src/scripthandle.cpp" />
+		<Unit filename="src/scripthelper.cpp" />
+		<Unit filename="src/scriptmath.cpp" />
+		<Unit filename="src/scriptmathcomplex.cpp" />
+		<Unit filename="src/scriptstdstring.cpp" />
+		<Unit filename="src/scriptstdstring_utils.cpp" />
+		<Unit filename="src/serializer.cpp" />
+		<Unit filename="src/weakref.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

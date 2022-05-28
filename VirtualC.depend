@@ -1,0 +1,252 @@
+# depslib dependency file v1.0
+1652728707 source:/media/djoker/code/linux/cpp/VirtualC/main.cpp
+	<cstdio>
+	<string>
+	<vector>
+	<iostream>
+	<assert.h>
+	<string.h>
+	<sys/time.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<stdarg.h>
+	<angelscript.h>
+	"scriptstdstring.h"
+	"scriptbuilder.h"
+	"scriptmath.h"
+	"scriptmathcomplex.h"
+	"scripthandle.h"
+	"scriptfile.h"
+	"scriptfilesystem.h"
+	"scriptarray.h"
+	"scriptany.h"
+	"weakref.h"
+	"scriptdictionary.h"
+	"datetime.h"
+	"scripthelper.h"
+	<raylib.h>
+
+1522702078 source:/media/djoker/code/linux/cpp/VirtualC/src/contextmgr.cpp
+	<assert.h>
+	<string>
+	"contextmgr.h"
+
+1424477072 /media/djoker/code/linux/cpp/VirtualC/include/contextmgr.h
+	<angelscript.h>
+	<vector>
+
+1578755417 source:/media/djoker/code/linux/cpp/VirtualC/src/debugger.cpp
+	"debugger.h"
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	<assert.h>
+
+1449446009 /media/djoker/code/linux/cpp/VirtualC/include/debugger.h
+	<angelscript.h>
+	<string>
+	<vector>
+	<map>
+
+1536706465 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptany.cpp
+	"scriptany.h"
+	<new>
+	<assert.h>
+	<string.h>
+
+1361132913 /media/djoker/code/linux/cpp/VirtualC/include/scriptany.h
+	<angelscript.h>
+
+1629059516 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptarray.cpp
+	<new>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<string>
+	<algorithm>
+	"scriptarray.h"
+
+1621299059 /media/djoker/code/linux/cpp/VirtualC/include/scriptarray.h
+	<angelscript.h>
+
+1617295935 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptbuilder.cpp
+	"scriptbuilder.h"
+	<vector>
+	<assert.h>
+	<stdio.h>
+	<direct.h>
+	<windows.h>
+	<unistd.h>
+
+1592223817 /media/djoker/code/linux/cpp/VirtualC/include/scriptbuilder.h
+	<angelscript.h>
+	<string>
+	<map>
+	<set>
+	<vector>
+	<string.h>
+
+1415928191 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptfile.cpp
+	"scriptfile.h"
+	<new>
+	<assert.h>
+	<string>
+	<string.h>
+	<stdio.h>
+	<windows.h>
+
+1415833910 /media/djoker/code/linux/cpp/VirtualC/include/scriptfile.h
+	<angelscript.h>
+	<string>
+	<stdio.h>
+
+1652721690 source:/media/djoker/code/linux/cpp/VirtualC/src/datetime.cpp
+	"datetime.h"
+	"aswrappedcall.h"
+	<string.h>
+	<assert.h>
+	<new>
+
+1541340968 /media/djoker/code/linux/cpp/VirtualC/include/datetime.h
+	<angelscript.h>
+	<chrono>
+
+1618100846 /media/djoker/code/linux/cpp/VirtualC/include/aswrappedcall.h
+	<angelscript.h>
+	<new>
+
+1529876160 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptgrid.cpp
+	<new>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	"scriptgrid.h"
+
+1449447339 /media/djoker/code/linux/cpp/VirtualC/include/scriptgrid.h
+	<angelscript.h>
+
+1593011085 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptstdstring.cpp
+	"scriptstdstring.h"
+	<assert.h>
+	<sstream>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<unordered_map>
+	<map>
+
+1536332797 /media/djoker/code/linux/cpp/VirtualC/include/scriptstdstring.h
+	<angelscript.h>
+	<string>
+
+1452300163 source:/media/djoker/code/linux/cpp/VirtualC/src/serializer.cpp
+	<assert.h>
+	<string.h>
+	<stdio.h>
+	"serializer.h"
+
+1449447339 /media/djoker/code/linux/cpp/VirtualC/include/serializer.h
+	<angelscript.h>
+	<vector>
+	<string>
+	<map>
+
+1626630221 source:/media/djoker/code/linux/cpp/VirtualC/src/weakref.cpp
+	"weakref.h"
+	<new>
+	<assert.h>
+	<string.h>
+
+1449446118 /media/djoker/code/linux/cpp/VirtualC/include/weakref.h
+	<angelscript.h>
+
+1652721695 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptdictionary.cpp
+	<assert.h>
+	<string.h>
+	"scriptdictionary.h"
+	"scriptarray.h"
+
+1535311409 /media/djoker/code/linux/cpp/VirtualC/include/scriptdictionary.h
+	<angelscript.h>
+	<string>
+	<unordered_map>
+	<map>
+
+1652721713 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptfilesystem.cpp
+	"scriptfilesystem.h"
+	"aswrappedcall.h"
+	<string.h>
+	<direct.h>
+	<Windows.h>
+	<unistd.h>
+	<dirent.h>
+	<sys/stat.h>
+	<assert.h>
+
+1652721707 /media/djoker/code/linux/cpp/VirtualC/include/scriptfilesystem.h
+	<angelscript.h>
+	<string>
+	<stdio.h>
+	"scriptarray.h"
+	"datetime.h"
+
+1652721718 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptstdstring_utils.cpp
+	<assert.h>
+	"scriptstdstring.h"
+	"scriptarray.h"
+	<stdio.h>
+	<string.h>
+
+1334794957 /media/djoker/code/linux/cpp/VirtualC/include/scriptmath.h
+	<angelscript.h>
+
+1342223053 /media/djoker/code/linux/cpp/VirtualC/include/scriptmathcomplex.h
+	<angelscript.h>
+
+1525535271 /media/djoker/code/linux/cpp/VirtualC/include/scripthandle.h
+	<angelscript.h>
+
+1535226874 /media/djoker/code/linux/cpp/VirtualC/include/scripthelper.h
+	<sstream>
+	<string>
+	<angelscript.h>
+
+1618100935 source:/media/djoker/code/linux/cpp/VirtualC/src/generateheader.cpp
+	<stdio.h>
+	<string>
+
+1632658886 source:/media/djoker/code/linux/cpp/VirtualC/src/scripthandle.cpp
+	"scripthandle.h"
+	<new>
+	<assert.h>
+	<string.h>
+
+1447293266 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptmath.cpp
+	<assert.h>
+	<math.h>
+	<float.h>
+	<string.h>
+	"scriptmath.h"
+	<cmath>
+
+1567128033 source:/media/djoker/code/linux/cpp/VirtualC/src/scriptmathcomplex.cpp
+	<assert.h>
+	<string.h>
+	<new>
+	<math.h>
+	"scriptmathcomplex.h"
+
+1652722128 source:/media/djoker/code/linux/cpp/VirtualC/src/scripthelper.cpp
+	<string.h>
+	"scripthelper.h"
+	<assert.h>
+	<stdio.h>
+	<fstream>
+	<set>
+	<stdlib.h>
+	"aswrappedcall.h"
+
